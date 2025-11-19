@@ -3,7 +3,7 @@
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
 ![Learning](https://img.shields.io/badge/Learning-C++-orange)
 
-## Quoziente divisione intera ricorsiva
+## Recursive Integer Division
 
 Implementazione ricorsiva dell'algoritmo di calcolo di una divisione intera tra due interi.
 
