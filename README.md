@@ -3,23 +3,23 @@
 ![Difficulty](https://img.shields.io/badge/Difficulty-Beginner-yellow)
 ![Learning](https://img.shields.io/badge/Learning-C++-orange)
 
-## Recursive Integer Division
+# Recursive Integer Division
 
 Implementazione ricorsiva dell'algoritmo di calcolo di una divisione intera tra due interi.
 
-# Componenti della ricorsione
+## Componenti della ricorsione
 
 1. **Condizioni di terminazione:** `if(dividendo < divisore)`
 2. **Istruzione di terminazione:** `return 0`
 3. **Passo di avvicinamento:** `dividendo - divisore`
 4. **Chiamata ricorsiva:** `1 + divisione(dividendo - divisore, divisore)`
 
-# Utilizzo
+## Utilizzo
 1. Crea in Code::Blocks un nuovo progetto.
 2. Copia il codice sorgente.
 3. Compila ed esegui.
 
-# Codice sorgente
+## Codice sorgente
 
 ```cpp
 #include <iostream>
@@ -56,11 +56,11 @@ int divisione(int dividendo, int divisore){
 }
 ```
 
-# Output
+## Output
 
 ![Risultato della divisione](immagini/cattura_1.PNG)
 
-# Funzionamento
+## Funzionamento
 
 ```text
 divisione(25, 5)
@@ -73,10 +73,10 @@ divisione(25, 5)
 = 5
 ```
 
-# Autore
+## Autore
 
 Gabriele Henriet - [GitHub](https://github.com/Gabri-dev-C)
 
-# Licenza
+## Licenza
 
 MIT License
